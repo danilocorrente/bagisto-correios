@@ -1,0 +1,30 @@
+{
+    "name": "danilocorrente/bagisto-correios",
+    "description": "Lib Atualizada para os correios 2023 Bagisto",
+    "authors": [
+        {
+            "name": "Danilo Corrente",
+            "email": "danilo@correntam.com.br"
+        },
+        {
+            "name": "Carlos Gartner",
+            "email": "contato@carlosgartner.com.br"
+        }
+    ],
+    "require": {
+        "cagartner/phpquery": "0.9.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Danilocorrente\\BagistoCorreios\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Danilocorrente\\BagistoCorreios\\Providers\\CorreiosServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+}
